@@ -1,0 +1,41 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Navigation */
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cadetblue;
+  color: white;
+  margin-top: 1rem;
+  padding: 1rem 0 1rem 2rem;
+}
+
+.logo {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+nav li {
+  padding-right: 2rem;
+}
